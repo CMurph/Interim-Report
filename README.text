@@ -1,0 +1,5 @@
+# Interim-Report
+
+The create_database code must be run on a PostGreSQL database with the PostGIS extender installed. This should be run on a PostGIS
+enabled database called "fyp", the program tweet_collection.py will connect to the database using the "postgres" user.
+Once started the program will continue to collect tweets and wait for the rate limit until stopped.
